@@ -11,6 +11,13 @@ h1 {
 
 }
 
+h2 {
+  color: white;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 black;
+
+}
+
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
