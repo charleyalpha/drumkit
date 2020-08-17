@@ -23,9 +23,9 @@ for (var i = 0; i<DrumButtonCount; i++) {
 
 document.addEventListener("keypress", function(event) {
 
-  	makeSound(event.key);
+  	makeSound((event.key).toLowerCase());
 
-  	buttonAnimation(event.key);
+  	buttonAnimation((event.key).toLowerCase());
 
 });
 
